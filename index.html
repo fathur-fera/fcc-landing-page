@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <title>Fcc - Landing Page</title>
+  </head>
+
+  <body>
+    <div class="main container-lg">
+      <header id="header">
+        <nav
+          class="navbar navbar-expand-md justify-content-center justify-content-md-between fixed-top"
+          id="nav-bar"
+        >
+          <a href="#" class="navbar-brand">
+            <img
+              src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+              id="header-img"
+              class="img-fluid"
+            />
+          </a>
+          <div class="navbar-nav text-center">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#h-i-w" class="nav-link">How it Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </div>
+        </nav>
+        <section id="hero">
+          <h1 class="text-center mb-4">Handcrafted, home-made masterpieces</h1>
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              class="form-control mb-2"
+            />
+            <input
+              type="submit"
+              id="submit"
+              value="Get Started"
+              class="btn btn-primary form-control"
+            />
+          </form>
+        </section>
+      </header>
+
+      <main>
+        <section class="row" id="features">
+          <div class="main-feature col-sm-4 d-flex align-items-center mb-2">
+            <div class="icon">
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
+            <div class="flex-column">
+              <h2>Premium Materials</h2>
+              <p>
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
+          </div>
+          <div class="main-feature col-sm-4 d-flex align-items-center mb-2">
+            <div class="icon">
+              <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="flex-column">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="main-feature col-sm-4 d-flex align-items-center mb-2">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full"></i>
+            </div>
+            <div class="flex-column">
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-5" id="h-i-w">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              id="video"
+              src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+              class="embed-responsive-item"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="container-fluid" id="pricing">
+          <div class="row text-center justify-content-between no-gutters">
+            <div class="product col-lg-3 mb-3 border">
+              <h3 class="product-header">Tenor Trombone</h3>
+              <hr />
+              <h4>$600</h4>
+              <p>This is a short description of the product</p>
+              <ol>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor.</li>
+              </ol>
+              <button class="btn btn-primary">Select</button>
+            </div>
+            <div class="product col-lg-3 mb-3 border">
+              <h3 class="product-header">Bass Trombone</h3>
+              <hr />
+              <h4>$900</h4>
+              <p>This is a short description of the product</p>
+              <ol>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor.</li>
+              </ol>
+              <button class="btn btn-primary">Select</button>
+            </div>
+            <div class="product col-lg-3 mb-3 border">
+              <h3 class="product-header">Valve Trombone</h3>
+              <hr />
+              <h4>$1200</h4>
+              <p>This is a short description of the product</p>
+              <ol>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor.</li>
+              </ol>
+              <button class="btn btn-primary">Select</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <nav class="nav justify-content-end mr-n3">
+          <a href="#" class="nav-link">Privacy</a>
+          <a href="#" class="nav-link">Terms</a>
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+        <p class="text-right">Copyright 2016, Original Trombones</p>
+      </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

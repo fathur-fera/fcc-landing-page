@@ -1,0 +1,62 @@
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.navbar-brand {
+  max-width: 20em;
+}
+
+header,
+#features {
+  margin-bottom: 2rem;
+}
+
+#nav-bar {
+  background-color: white;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.product-header {
+  margin: 1rem 0;
+}
+
+.product ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+.icon {
+  min-width: 80px;
+}
+
+button {
+  min-width: 10em;
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
