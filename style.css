@@ -35,6 +35,11 @@ header,
   margin-top: 100px;
 }
 
+.product {
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 .product-header {
   margin: 1rem 0;
 }
